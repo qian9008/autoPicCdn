@@ -14,7 +14,7 @@ error_reporting(0);
 header('Content-Type: text/html; charset=UTF-8');
 date_default_timezone_set("PRC");
 
-define("REPO","ttc");//必须是下面用户名下的公开仓库
+define("REPO","qian9008/ttc");//必须是下面用户名下的公开仓库
 define("USER","qian9008");//必须是当前GitHub用户名
 define("MAIL","qian9008@gmail.com");//
 define("TOKEN","fd4912de39b1b3c0b656728791bccc17a52e770e");//https://github.com/settings/tokens 去这个页面生成一个有写权限的token（repo：Full control of private repositories 和write:packages前打勾）
